@@ -4,11 +4,11 @@
 }
 
 .columns img {
-    width: 50%;
+    width: 100%;
 }
 
 .columns {
-    background-color: #FAEBD7; 
+    background-color: #FAEBD7;  
 }
 
 @media (min-width: 900px) {
