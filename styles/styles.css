@@ -63,7 +63,7 @@ header {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
@@ -88,7 +88,7 @@ a:any-link {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: overline;
   color: var(--link-hover-color);
 }
 
@@ -124,7 +124,7 @@ a.button:any-link, button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 70px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
@@ -199,7 +199,7 @@ hr {
 }
 
 main img {
-  max-width: 100%;
+  max-width: 75%;
   width: auto;
   height: auto;
 }
