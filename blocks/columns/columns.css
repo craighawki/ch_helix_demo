@@ -11,7 +11,7 @@
     background-color: #7aa7e9;  
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px;) {
     .columns > div {
         display: flex;
         align-items: center;
